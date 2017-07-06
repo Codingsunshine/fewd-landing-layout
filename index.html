@@ -1,9 +1,102 @@
+<!--"Relaxr" - Extra bold, 24px
+"Get piece of mind with a single tap" - Semibold, 24px
+"Get it Now" - Extra bold, 14px. 5px border radius
+"Benefits" - Semibold, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - Light, 13px
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px
+
+"Sign Up Now!" - extra bold, 12px, 5px border radius
+
+Relaxr - extra bold, 24px
+"Copyright 2015. Relaxr."
+-->
+
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<title>Relaxr Website</title>
+		<!--<link rel="stylesheet" type="text/css" 
+		href="css/reset.css">
+		I totally missed that I was supposed to use this and now when I go to apply it it throws my css off :( -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,800" rel="stylesheet">
+		<!--Colors used:
+			benefits background color: #f0efef
+			yellow: #f9e42e
+			dark blue: #033048
+			light grey: #606161
+			almost black: #121212-->
+	</head>
 
+<body>
+<div id="wrapper">
+
+	<main>
+			<section class="top-section-pieceofmind">
+				<article>
+				<h1 class="font-size-24px font-extra-bold">Relaxr</h1>
+					<p class="font-size-24px font-semi-bold">Get piece of mind with a single tap</p>
+					<!-- Possible javascript? <input type="button" onclick="location.href='http://google.com';" value="Get it Now" />
+					<form action="http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/beach-wallpaper-4.jpg">
+    					<input class="css-button-getnow, font-extra-bold" type="submit" value="Get it Now" />
+					</form>
+					-->
+					<button class="css-button-getnow font-extra-bold" type="button">Get it Now</button>
+
+				</article>
+			</section>
+			
+			<section class="middle-section-benefits">
+				<h2 class="font-size-20px font-semi-bold">Benefits</h2>
+				<article>	
+					<p class="font-light font-size-13px">The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
+
+					<ul>
+						<li>Schedule meetings for you</li>
+						<li>Excel automation to complete your work for you</li>
+						<li>Responds to emails on your behalf</li>
+						<li>Does all your work for you with our revolutionary AI technology</li>
+					</ul>	
+				</article>
+			</section>
+			
+			<section class="bottom-section-changeoflife">
+				<article>	
+					<blockquote class="font-light-italic font-size-18px"cite="https://www.facebook.com/amanda.intuit">
+					"Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work."
+					</blockquote>
+					<p class="font-semi-bold font-size-18px">- Amanda, Intuit</p>
+				</article>
+			</section>
+
+			<section class="sign-up-button-section">
+				<article>
+					<!--<form action="http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/beach-wallpaper-4.jpg">
+    					<input class="css-button-signnow, font-extra-bold" type="submit" value="Sign Up Now!" />
+					</form>-->
+					<button class="css-button-signnow" type="button">Sign Up Now!</button>
+				</article>	
+			</section>
+	</main>
+	
+	<footer>
+
+		<p class="font-size-24px font-extra-bold font-yellow">Relaxr</p>
+		<img src="./images/twitter.png">
+		<img src="./images/facebook.png">
+		<p class="hidden-copyright">Copyright 2015. Relaxr.</p>
+
+	</footer>
+
+</div>
 </body>
+
 </html>
