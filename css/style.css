@@ -11,7 +11,8 @@
 }
 
 .font-light-italic {
-	font-weight:300i;
+	font-weight:300;
+	font-style: italic;
 }
 
 .font-semi-bold {
